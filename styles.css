@@ -1,0 +1,143 @@
+body {
+  background-color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2em;
+}
+header {
+  width: 150px;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+header a img {
+  width: 130px;
+  height: 180px;
+}
+
+header h1 {
+  text-indent: -9999px;
+}
+
+nav {
+  background-color: rgb(192, 204, 199);
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: auto 40px auto 40px;
+  padding: 15px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+nav li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(135, 206, 184);
+  border-radius: 5px;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+}
+
+.discovery {
+  margin: 15px;
+  padding: 10px;
+  background-image: url("/img1.jpg");
+  height: 450px;
+  width: 100%;
+  background-repeat: repeat;
+  border-radius: 5px;
+}
+
+.discovery h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #000000;
+  margin: 100px 0px 0px 40px;
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
+
+.discovery h4 {
+  color: rgb(94, 143, 79);
+  margin: 200px 0px 0px 55%;
+  font-size: 32px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.container article {
+  margin-right: 10px;
+  text-align: left;
+  font-size: 1.6em;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container article h2 {
+  text-align: center;
+}
+article img {
+  width: 550px;
+  border-radius: 10px;
+}
+
+.operationHour {
+  text-align: center;
+  font-weight: 200px;
+  font-style: italic;
+}
+footer {
+  display: flex;
+  background-color: rgb(192, 204, 199);
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+footer div {
+  flex: 1;
+  margin: 10px;
+  width: 80px;
+  text-align: center;
+}
+
+footer div img {
+  width: 150px;
+  height: 100px;
+  margin-top: 100px;
+}
+
+#address {
+  margin-top: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  /* text-decoration: solid; */
+}
+
+iframe {
+  margin-top: 40px;
+}
+
+#rightReserved {
+  margin-top: 250px;
+}
